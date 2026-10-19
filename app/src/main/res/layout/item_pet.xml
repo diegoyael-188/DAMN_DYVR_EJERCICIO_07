@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:paddingVertical="16dp"
+    android:paddingHorizontal="12dp">
+
+    <TextView
+        android:id="@+id/tvPetNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firulais"
+        android:textColor="#212121"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvPetDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raza: Labrador | Edad: 3 años"
+        android:textColor="#757575"
+        android:textSize="13sp"
+        android:layout_marginTop="4dp" />
+
+</LinearLayout>
